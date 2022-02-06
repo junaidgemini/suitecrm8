@@ -48,5 +48,12 @@ Run composer install in the root directory
 
 Run yarn install in the root directory **yarn install**
 
+## Set permissions (though these may need to be different depending on your setup)
 
+    find . -type d -not -perm 2775 -exec chmod 2775 {} \;
 
+    find . -type f -not -perm 0644 -exec chmod 0644 {} \;
+
+    find . \! -user www-data -exec chown www-data:www-data {} \;
+
+    chmod +x bin/console
