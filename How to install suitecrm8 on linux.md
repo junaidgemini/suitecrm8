@@ -15,9 +15,12 @@
 
 ## Now clone the existing repo or download the fresh source code.
 
+fresh install.
+
     https://suitecrm.com/suitecrm/files/SuiteCRM-8.0.3.zip
 
-#
+existig repo.
+
     git clone https://github.com/junaidgemini/suitecrm8.git 
 
 
@@ -41,8 +44,9 @@ Install yarn: (https://yarnpkg.com/getting-started/install)
 ## Installation
 
 Run composer install in the root directory
+    **composer install**
 
-Run yarn install in the root directory
+Run yarn install in the root directory **yarn install**
 
 
 
